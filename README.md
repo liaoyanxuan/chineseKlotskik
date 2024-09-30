@@ -1,2 +1,2 @@
-# chineseKlotskik
-Klotskik on publicsh in chinese
+# overseaKlotskik
+Klotskik on publicsh oversea
