@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Resources>	
+	<!-- Common-->
+	<string name = "classic" text = "经典布局_90"/>
+	<string name = "blindbox" text = "盲盒模式_90"/>
+	<string name = "level1" text = "等级1(1-19步)_70"/>
+	<string name = "level2" text = "等级2(20-39步)_70"/>
+	<string name = "level3" text = "等级3(40-59步)_70"/>
+	<string name = "level4" text = "等级4(60-79步)_70"/>
+	<string name = "level5" text = "等级5(80-99步)_70"/>
+	<string name = "level6" text = "等级6(100-119步)_65"/>
+	<string name = "level7" text = "等级7(120-200步)_63"/>
+	<string name = "Packages" text = "等级"/>
+	<string name = "level:" text = "关卡:"/>
+	<string name = "Moves:" text = "步数:"/>
+	<string name = "Best:" text = "最佳:"/>
+	<string name = "PAUSE" text = "暂停"/>
+	<string name = "move:{0}" text = "步数:{0}"/>
+	<string name = "best:{0}" text = "最佳:{0}"/>
+	<string name = "daily bonus" text = "每日奖励"/>
+	<string name = "daily reward" text = "每日奖励"/>
+	<string name = "DAY {0}" text = "第{0}天"/>
+	<string name = "+{0} Hint" text = "+{0} 提示"/>
+	<string name = "Earn {0} Star To Unlock" text = "需{0}颗星解锁"/>
+	<string name = " DAILY BONUS IN {0}:{1}:{2} " text = " 距离每日奖励还有 {0}:{1}:{2} "/>
+	<string name = "advertisementLoadFail" text = "广告请求失败，请检查网络"/>
+	<string name = "isloadingAdvertisement" text = "正在请求广告..."/>
+	<string name = "claim" text = "领  取"/>
+	<string name = "reward" text = "奖  励"/>
+	<string name = "ADTipsTitle" text = "广告提示"/>
+	<string name = "ADTipsContent" text = "有奖广告"/>
+	<string name = "ADThanksTitle" text = "广告奖励"/>
+	<string name = "ADThanksContent" text = "感谢观看"/>
+	<string name = "ADThanksReward" text = "奖励已发放"/>
+
+	<string name = "txtContinue" text = "继续"/>
+    <string name = "txtShop" text = "商店"/>
+    <string name = "txtMusic" text = "音乐"/>
+    <string name = "txtSound" text = "音效"/>
+    <string name = "txtHome" text = "首页"/>
+    <string name = "txtGems_FR" text = "{0} 金币"/>
+    <string name = "txtGetFree" text = "免费获得"/>
+    <string name = "txtUseTool" text = "使用道具"/>
+    <string name = "txtBest" text = "最佳"/>
+    <string name = "txtScore" text = "分数"/>
+    <string name = "txtSucess" text = "成功!"/>
+    <string name = "txtRewardSucess" text = "获取奖励成功!"/>
+    <string name = "txtOK" text = "确定"/>
+    <string name = "txtYES" text = "好的"/>
+    <string name = "txtSetting" text = "设置"/>
+    <string name = "txtRate" text = "评价"/>
+    <string name = "txtThanks" text = "不，谢谢"/>
+    <string name = "txtRweardADTitle" text = "奖励广告"/>
+    <string name = "txtRewardADTips" text = "广告奖励获取"/>
+    <string name = "txtReawrdGems" text = "+30 金币"/>
+    <string name = "txtGameOver" text = "游戏结束"/>
+    <string name = "txtCombo" text = "{0} 连消"/>
+
+    <!-- Daily Rewards -->
+    <string name = "txtDailyRewards" text = "每日奖励"/>
+    <string name = "txtDay_FR" text = "第{0}天"/>
+    
+    <string name = "useHintTool" text = "当前盘面获得30步提示"/>
+    <string name = "useUnlockTool" text = "提前解锁该局"/>
+    <string name = "useSkinTool" text = "解锁所有皮肤，当天有效"/>
+	
+	    <!-- Select Theme Screen -->
+    <string name = "txtSelectTheme" text = "选择主题"/>
+	<string name = "txtActive" text = "当前"/>
+	<string name = "txtUnlock" text = "解锁"/>
+	<string name = "txtSelect" text = "选择"/>
+	<string name = "Theme-1" text = "主题 1"/>
+	<string name = "Theme-2" text = "主题 2"/>
+
+</Resources>

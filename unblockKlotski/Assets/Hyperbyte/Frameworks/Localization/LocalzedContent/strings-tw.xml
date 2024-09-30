@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Resources>	
+	<!-- Common-->
+	<string name = "classic" text = "經典佈局_90"/>
+	<string name = "blindbox" text = "盲盒模式_90"/>
+	<string name = "level1" text = "等級1(1-19步)_70"/>
+	<string name = "level2" text = "等級2(20-39步)_70"/>
+	<string name = "level3" text = "等級3(40-59步)_70"/>
+	<string name = "level4" text = "等級4(60-79步)_70"/>
+	<string name = "level5" text = "等級5(80-99步)_70"/>
+	<string name = "level6" text = "等級6(100-119步)_65"/>
+	<string name = "level7" text = "等級7(120-200步)_63"/>
+	<string name = "Packages" text = "等級"/>
+	<string name = "level:" text = "關卡:"/>
+	<string name = "Moves:" text = "步數:"/>
+	<string name = "Best:" text = "最佳:"/>
+	<string name = "PAUSE" text = "暫停"/>
+	<string name = "move:{0}" text = "步數:{0}"/>
+	<string name = "best:{0}" text = "最佳:{0}"/>
+	<string name = "daily bonus" text = "每日獎勵"/>
+	<string name = "daily reward" text = "每日獎勵"/>
+	<string name = "DAY {0}" text = "第{0}天"/>
+	<string name = "+{0} Hint" text = "+{0} 提示"/>
+	<string name = "Earn {0} Star To Unlock" text = "需{0}顆星解鎖"/>
+	<string name = " DAILY BONUS IN {0}:{1}:{2} " text = " 距離每日獎勵還有 {0}:{1}:{2} "/>
+	<string name = "advertisementLoadFail" text = "廣告請求失敗，請檢查網絡"/>
+	<string name = "isloadingAdvertisement" text = "正在請求廣告..."/>
+	<string name = "claim" text = "領  取"/>
+	<string name = "reward" text = "獎  勵"/>
+	<string name = "ADTipsTitle" text = "廣告提示"/>
+	<string name = "ADTipsContent" text = "有獎廣告"/>
+	<string name = "ADThanksTitle" text = "廣告獎勵"/>
+	<string name = "ADThanksContent" text = "感謝觀看"/>
+	<string name = "ADThanksReward" text = "獎勵已發放"/>
+
+	<string name = "txtContinue" text = "繼續"/>
+    <string name = "txtShop" text = "商店"/>
+    <string name = "txtMusic" text = "音樂"/>
+    <string name = "txtSound" text = "音效"/>
+    <string name = "txtHome" text = "首頁"/>
+    <string name = "txtGems_FR" text = "{0} 金幣"/>
+    <string name = "txtGetFree" text = "免費獲得"/>
+    <string name = "txtUseTool" text = "使用道具"/>
+    <string name = "txtBest" text = "最佳"/>
+    <string name = "txtScore" text = "分數"/>
+    <string name = "txtSucess" text = "成功!"/>
+    <string name = "txtRewardSucess" text = "獲取獎勵成功!"/>
+    <string name = "txtOK" text = "確定"/>
+    <string name = "txtYES" text = "好的"/>
+    <string name = "txtSetting" text = "設置"/>
+    <string name = "txtRate" text = "評價"/>
+    <string name = "txtThanks" text = "不，謝謝"/>
+    <string name = "txtRweardADTitle" text = "獎勵廣告"/>
+    <string name = "txtRewardADTips" text = "廣告獎勵獲取"/>
+    <string name = "txtReawrdGems" text = "+30 金幣"/>
+    <string name = "txtGameOver" text = "遊戲結束"/>
+    <string name = "txtCombo" text = "{0} 連消"/>
+
+    <!-- Daily Rewards -->
+    <string name = "txtDailyRewards" text = "每日獎勵"/>
+    <string name = "txtDay_FR" text = "第{0}天"/>
+    
+    <string name = "useHintTool" text = "當前盤面獲得30步提示"/>
+    <string name = "useUnlockTool" text = "提前解鎖該局"/>
+    <string name = "useSkinTool" text = "解鎖所有皮膚，當天有效"/>
+	
+	    <!-- Select Theme Screen -->
+    <string name = "txtSelectTheme" text = "選擇主題"/>
+	<string name = "txtActive" text = "當前"/>
+	<string name = "txtUnlock" text = "解鎖"/>
+	<string name = "txtSelect" text = "選擇"/>
+	<string name = "Theme-1" text = "主題 1"/>
+	<string name = "Theme-2" text = "主題 2"/>
+
+</Resources>

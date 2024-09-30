@@ -1,0 +1,27 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:04e9cdf690cda2b79c8710c04cc11307:f39a4e54039b6a08964aeda550c72128:2e45160bf36b4642102b085af4afd333$
+#
+:format=40300
+:texture=UI2.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+banner_win;1;77;984;318; 0.5;0.5; 0;0;0;0
+banner_win_cn;987;77;984;318; 0.5;0.5; 0;0;0;0
+board_arrow;1647;532;208;227; 0.5;0.5; 0;0;0;0
+board_game_level;1153;891;500;500; 0.5;0.5; 0;0;0;0
+board_level;1655;885;345;506; 0.5;0.5; 0;0;0;0
+board_move_gameOver;1647;761;269;122; 0.5;0.5; 0;0;0;0
+btn_play;1153;397;492;492; 0.5;0.5; 0;0;0;0
+header_daily;1;1707;1261;340; 0.5;0.5; 0;0;0;0
+Main_Puzzle_TBG;1869;1971;98;76; 0.5;0.5; 0;0;0;0
+title;1;1285;1150;420; 0.5;0.5; 0;0;0;0
+titleCN;1;863;1150;420; 0.5;0.5; 0;0;0;0
+window;1264;1393;603;654; 0.5;0.5; 0;0;0;0

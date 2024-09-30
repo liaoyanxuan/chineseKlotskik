@@ -1,0 +1,9 @@
+/Library/
+/Temp/
+/LocalFile/
+/.vs/
+/obj/
+/GoogleMobileAds.Editor.csproj
+/PlayFab.csproj
+/PlayFabEditorExtensions.csproj
+/PlayFabSDKEditor.csproj

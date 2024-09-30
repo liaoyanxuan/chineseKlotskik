@@ -1,0 +1,27 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:f6b089d1dd3924bb27a1c26c921c5a52:001233e99dd52684ce6b610d8c7c3b06:e160c6b0541d4bf17b7ccb4fd48284d5$
+#
+:format=40300
+:texture=horserun.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+1;1;863;160;160; 0.5;0.5; 0;0;0;0
+2;163;863;160;160; 0.5;0.5; 0;0;0;0
+3;325;863;160;160; 0.5;0.5; 0;0;0;0
+4;1;701;160;160; 0.5;0.5; 0;0;0;0
+5;163;701;160;160; 0.5;0.5; 0;0;0;0
+6;325;701;160;160; 0.5;0.5; 0;0;0;0
+7;1;539;160;160; 0.5;0.5; 0;0;0;0
+8;163;539;160;160; 0.5;0.5; 0;0;0;0
+9;325;539;160;160; 0.5;0.5; 0;0;0;0
+10;1;377;160;160; 0.5;0.5; 0;0;0;0
+11;163;377;160;160; 0.5;0.5; 0;0;0;0
+12;325;377;160;160; 0.5;0.5; 0;0;0;0

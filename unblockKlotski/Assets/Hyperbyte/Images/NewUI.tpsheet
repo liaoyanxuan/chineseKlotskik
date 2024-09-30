@@ -1,0 +1,25 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:cf6c7ee1a2628238e9064020305548b7:8f5c20c43884fac4b2c6b15d4dd51c78:d4264a667457f7824d2e3fb975a7bb5a$
+#
+:format=40300
+:texture=NewUI.png
+:size=1024x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+bd_banner;1;889;581;103; 0.5;0.5; 0;0;0;0
+btn_close;723;1957;90;90; 0.5;0.5; 0;0;0;0
+btn_close_clickon;815;1957;90;90; 0.5;0.5; 0;0;0;0
+btn_secondChanceGeneral;1;1180;638;184; 0.5;0.5; 0;0;0;0
+btn_secondChanceGeneral_clickon;1;994;638;184; 0.5;0.5; 0;0;0;0
+btn_watch;1;385;476;166; 0.5;0.5; 0;0;0;0
+btn_watchvideo;479;385;476;166; 0.5;0.5; 0;0;0;0
+loadingCircle;1;1366;720;681; 0.5;0.5; 0;0;0;0
+refresh_loading_2;907;2007;48;40; 0.5;0.5; 0;0;0;0
+setting_bg_mainpannel;1;553;580;334; 0.5;0.5; 0;0;0;0

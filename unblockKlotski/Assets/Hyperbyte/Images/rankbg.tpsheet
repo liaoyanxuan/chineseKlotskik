@@ -1,0 +1,16 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:cd9ee009e210950d9db0626fb29f4d20:f0d75487b82ffe551ad3e49cbc49f327:f27139a7a4751f25776f28b889343454$
+#
+:format=40300
+:texture=rankbg.png
+:size=1024x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+BG_Board_All;1;936;910;1111; 0.5;0.5; 0;0;0;0

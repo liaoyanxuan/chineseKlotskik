@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Unity-iPhone
+
+  Created by 廖衍旋 on 2020/3/24.
+  
+*/
+CFBundleDisplayName="三國華容道";
+NSUserTrackingUsageDescription="你會看到更少的無關廣告";

@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:726596686897836d3b6b803aadafb8cf:490cef385c4f7a4f107f7a569212f722:7c8c06b2d88aecac34581b21ac279798$
+#
+:format=40300
+:texture=NewUIbg.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+bd_a;1;627;880;1420; 0.5;0.5; 0;0;0;0
+bd_b;883;1027;880;1020; 0.5;0.5; 0;0;0;0
+bd_c;883;67;764;958; 0.5;0.5; 0;0;0;0

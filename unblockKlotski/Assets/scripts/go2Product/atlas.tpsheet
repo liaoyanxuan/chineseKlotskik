@@ -1,0 +1,23 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:3b04a5208bfe52cb791ef3d081250efd:2a60db0452a6f6ee1123f78305de1382:aaf3b3bb8b9a1d3e562204b4a449ffc5$
+#
+:format=40300
+:texture=atlas.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+1010!经典方块爱消除游戏-iOS-512x512;1;1535;512;512; 0.5;0.5; 0;0;0;0
+一笔画 - 一笔连线游戏-iOS-512x512;1;1021;512;512; 0.5;0.5; 0;0;0;0
+六边形拼图益智单机小游戏-iOS-512x512;1;507;512;512; 0.5;0.5; 0;0;0;0
+数独方块拼图-iOS-512x512;515;1535;512;512; 0.5;0.5; 0;0;0;0
+数独玩家 - 经典逻辑推理健脑益智数字谜题单机游戏-iOS-512x512;1029;1535;512;512; 0.5;0.5; 0;0;0;0
+方块宝石滑消消-iOS-512x512;515;1021;512;512; 0.5;0.5; 0;0;0;0
+木块华容道游戏-iOS-512x512;515;507;512;512; 0.5;0.5; 0;0;0;0
+经典三国华容道益智游戏-iOS-512x512;1029;1021;512;512; 0.5;0.5; 0;0;0;0

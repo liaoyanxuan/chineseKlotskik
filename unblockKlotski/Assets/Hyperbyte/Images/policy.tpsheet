@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:c6cc449252a27fc66cba856010042940:937e048399306b8cdfedb3b4f04c473d:c2d14f9098a29b54c70c6298785caa0c$
+#
+:format=40300
+:texture=policy.png
+:size=1024x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+12+;1;962;849;1085; 0.5;0.5; 0;0;0;0
+guanbi02;852;1929;118;118; 0.5;0.5; 0;0;0;0
+tips4;1;748;231;212; 0.5;0.5; 0;0;0;0

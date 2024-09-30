@@ -1,0 +1,83 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Hyperbyte/GamePlay/Theme-1.tpsheet
+- Assets/Hyperbyte/GamePlay/ThemeSkin.tpsheet
+- Assets/Hyperbyte/Images/NewUI.tpsheet
+- Assets/Hyperbyte/Images/NewUIbg.tpsheet
+- Assets/Hyperbyte/Images/policy.tpsheet
+- Assets/Hyperbyte/Images/rank.tpsheet
+- Assets/Hyperbyte/Images/rankbg.tpsheet
+- Assets/NavySoftDropJewel/Images/texturepack/bgpannel0.tpsheet
+- Assets/NavySoftDropJewel/Images/texturepack/bgpannel1.tpsheet
+- Assets/NavySoftDropJewel/Images/texturepack/bgpannel2.tpsheet
+- Assets/NavySoftDropJewel/Images/texturepack/blocks.tpsheet
+- Assets/NavySoftDropJewel/Images/texturepack/jeweldropui.tpsheet
+- Assets/NavySoftDropJewel/Images/texturepack/others.tpsheet
+- Assets/NavySoftDropJewel/Images/texturepack/others2.tpsheet
+- Assets/NavySoftDropJewel/Images/UI/common.tpsheet
+- Assets/NavySoftDropJewel/Images/UI/rank.tpsheet
+- Assets/NavySoftDropJewel/Prefabs/specalblockAnim/specialblocksprite.tpsheet
+- Assets/NavySoftUnblockWood/Images/horserun.tpsheet
+- Assets/NavySoftUnblockWood/Images/UI.tpsheet
+- Assets/NavySoftUnblockWood/Images/UI2.tpsheet
+- Assets/NavySoftUnblockWood/Images/UI3.tpsheet
+- Assets/NavySoftUnblockWood/Images/UI4.tpsheet
+- Assets/Resources/dependency.tpsheet
+- Assets/Resources/Images3/Eff/ComboScore.tpsheet
+- Assets/scripts/go2Product/atlas.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Hyperbyte/GamePlay/Theme-1.png
+- Assets/Hyperbyte/GamePlay/ThemeSkin.png
+- Assets/Hyperbyte/Images/NewUI.png
+- Assets/Hyperbyte/Images/NewUIbg.png
+- Assets/Hyperbyte/Images/policy.png
+- Assets/Hyperbyte/Images/rank.png
+- Assets/Hyperbyte/Images/rankbg.png
+- Assets/NavySoftDropJewel/Images/texturepack/bgpannel0.png
+- Assets/NavySoftDropJewel/Images/texturepack/bgpannel1.png
+- Assets/NavySoftDropJewel/Images/texturepack/bgpannel2.png
+- Assets/NavySoftDropJewel/Images/texturepack/blocks.png
+- Assets/NavySoftDropJewel/Images/texturepack/jeweldropui.png
+- Assets/NavySoftDropJewel/Images/texturepack/others.png
+- Assets/NavySoftDropJewel/Images/texturepack/others2.png
+- Assets/NavySoftDropJewel/Images/UI/common.png
+- Assets/NavySoftDropJewel/Images/UI/rank.png
+- Assets/NavySoftDropJewel/Prefabs/specalblockAnim/specialblocksprite.png
+- Assets/NavySoftUnblockWood/Images/horserun.png
+- Assets/NavySoftUnblockWood/Images/UIs.png
+- Assets/NavySoftUnblockWood/Images/UI2.png
+- Assets/NavySoftUnblockWood/Images/UI3.png
+- Assets/NavySoftUnblockWood/Images/UI4.png
+- Assets/Resources/dependency.png
+- Assets/Resources/Images3/Eff/ComboScore.png
+- Assets/scripts/go2Product/atlas.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

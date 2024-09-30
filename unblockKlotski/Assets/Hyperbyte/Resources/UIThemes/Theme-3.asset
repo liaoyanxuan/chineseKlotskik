@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b4c8618c44742cf95840c09431b646, type: 3}
+  m_Name: Theme-3
+  m_EditorClassIdentifier: 
+  colorTags:
+  - tagName: ConsentPrivacyButton
+    tagColor: {r: 0.3647059, g: 0.7607843, b: 1, a: 1}
+  - tagName: ConsentYesButton
+    tagColor: {r: 0.23137255, g: 0.5411765, b: 0.8, a: 1}
+  - tagName: ConsentNoButton
+    tagColor: {r: 0.25882354, g: 0.34509805, b: 0.39607844, a: 1}
+  - tagName: HomeBG
+    tagColor: {r: 0.101960786, g: 0.12941177, b: 0.21176471, a: 1}
+  - tagName: HomeTitle
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: PanelButton
+    tagColor: {r: 0.16470589, g: 0.21176471, b: 0.32941177, a: 1}
+  - tagName: PopUpBG
+    tagColor: {r: 0.14901961, g: 0.18039216, b: 0.27058825, a: 1}
+  - tagName: PopUpTitle
+    tagColor: {r: 0.3764706, g: 0.25490198, b: 0.17254902, a: 1}
+  - tagName: PopUpButton
+    tagColor: {r: 0.3764706, g: 0.25490198, b: 0.17254902, a: 1}
+  - tagName: PopUpButton1
+    tagColor: {r: 0.34117648, g: 0.50980395, b: 0.6431373, a: 1}
+  - tagName: PopUpText
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: PopUpHightlightButton
+    tagColor: {r: 0.23137255, g: 0.5411765, b: 0.8, a: 1}
+  - tagName: PopupSelectionBorder
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: SettingOptionImage
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: SettingOptionText
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: SettingOptionLine
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: DCDayBG
+    tagColor: {r: 0.11764706, g: 0.14901961, b: 0.24705882, a: 1}
+  - tagName: DCDesc
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: DCCollectBorder
+    tagColor: {r: 0.83921576, g: 0.2509804, b: 0.29411766, a: 1}
+  - tagName: DCCheckmark
+    tagColor: {r: 0.92941177, g: 0.4392157, b: 0.5058824, a: 1}
+  - tagName: DCReward
+    tagColor: {r: 1, g: 0.9372549, b: 0.4862745, a: 1}
+  - tagName: ShopIAPBG
+    tagColor: {r: 0.11764706, g: 0.14901961, b: 0.24705882, a: 1}
+  - tagName: ShopIAPButton
+    tagColor: {r: 0.17254902, g: 0.39607844, b: 0.6901961, a: 1}
+  - tagName: ShopIAPDesc
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: ShopIAPOffer
+    tagColor: {r: 1, g: 0.9372549, b: 0.4862745, a: 1}
+  - tagName: LanguageOptionImage
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: LanguageOptionText
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: LanguageOptionLine
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: GPBG
+    tagColor: {r: 0.68235296, g: 0.6, b: 0.54509807, a: 1}
+  - tagName: GPBoardBorder
+    tagColor: {r: 0.38039216, g: 0.44705883, b: 0.67058825, a: 1}
+  - tagName: GPBoardBG
+    tagColor: {r: 0, g: 0, b: 0, a: 1}
+  - tagName: GPShapeContainer
+    tagColor: {r: 0.16078432, g: 0.19607843, b: 0.30980393, a: 1}
+  - tagName: GPScore
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: GPBestTrophy
+    tagColor: {r: 0.36862746, g: 0.44313726, b: 0.6901961, a: 1}
+  - tagName: GPBestScore
+    tagColor: {r: 0.36862746, g: 0.44313726, b: 0.6901961, a: 1}
+  - tagName: GPTimeProgress
+    tagColor: {r: 0.22745098, g: 0.2901961, b: 0.49019608, a: 1}
+  - tagName: GPInGameMessage
+    tagColor: {r: 0.24313726, g: 0.2901961, b: 0.40784314, a: 1}
+  - tagName: GameOverBG
+    tagColor: {r: 0.050980393, g: 0.050980393, b: 0.07450981, a: 0.9019608}
+  - tagName: GameOverTitle
+    tagColor: {r: 0.20392157, g: 0.65882355, b: 0.3254902, a: 1}
+  - tagName: GameOverScore
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: GameOverTrophy
+    tagColor: {r: 0.36862746, g: 0.44313726, b: 0.6901961, a: 1}
+  - tagName: GameOverBestScore
+    tagColor: {r: 0.36862746, g: 0.44313726, b: 0.6901961, a: 1}
+  - tagName: GameOverReward
+    tagColor: {r: 1, g: 1, b: 1, a: 1}
+  - tagName: GameOverHome
+    tagColor: {r: 0.23137255, g: 0.5411765, b: 0.8, a: 1}
+  - tagName: GameOverReplay
+    tagColor: {r: 0.34117648, g: 0.50980395, b: 0.6431373, a: 1}
+  - tagName: UnlockThemeButton
+    tagColor: {r: 0.9433962, g: 0.42535037, b: 0.29814878, a: 1}
+  - tagName: logoColor
+    tagColor: {r: 0.3372549, g: 0.6156863, b: 0.95686275, a: 1}
+  - tagName: starColor
+    tagColor: {r: 0.3647059, g: 0.5372549, b: 0.8117647, a: 1}
+  spriteTags:
+  - tagName: caocao
+    tagSprite: {fileID: 0}
+  - tagName: guanyu
+    tagSprite: {fileID: 0}
+  - tagName: guanyu2
+    tagSprite: {fileID: 0}
+  - tagName: zhangfei
+    tagSprite: {fileID: 0}
+  - tagName: zhangfei2
+    tagSprite: {fileID: 0}
+  - tagName: zhaoyun
+    tagSprite: {fileID: 0}
+  - tagName: zhaoyun2
+    tagSprite: {fileID: 0}
+  - tagName: machao
+    tagSprite: {fileID: 0}
+  - tagName: machao2
+    tagSprite: {fileID: 0}
+  - tagName: huangzhong
+    tagSprite: {fileID: 0}
+  - tagName: huangzhong2
+    tagSprite: {fileID: 0}
+  - tagName: zu
+    tagSprite: {fileID: 0}

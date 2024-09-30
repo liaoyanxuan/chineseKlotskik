@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Resources>	
+	<!-- Common-->
+	<string name = "beginner" text = "BEGINNER"/>
+	<string name = "medium" text = "MEDIUM"/>
+	<string name = "advance" text = "ADVANCE"/>
+	<string name = "expert" text = "EXPERT"/>
+	<string name = "master" text = "MASTER"/>
+	<string name = "Packages" text = "PACKAGES"/>
+	<string name = "level:" text = "LEVEL:"/>
+	<string name = "Moves:" text = "MOVE:"/>
+	<string name = "Best:" text = "BEST:"/>
+	<string name = "PAUSE" text = "PAUSE"/>
+	<string name = "move:{0}" text = "move:{0}"/>
+	<string name = "best:{0}" text = "best:{0}"/>
+	<string name = "daily bonus" text = "DAILY BONUS"/>
+	<string name = "daily reward" text = "DAILY RWEARD"/>
+	<string name = "DAY {0}" text = "DAY {0}"/>
+	<string name = "+{0} Hint" text = "+{0} HINT"/>
+	<string name = "Earn {0} Star To Unlock" text = "EARN {0} STAR TO UNLOCK"/>
+	<string name = " DAILY BONUS IN {0}:{1}:{2} " text = " DAILY BONUS IN {0}:{1}:{2} "/>
+	<string name = "advertisementLoadFail" text = "Advertisement Load Fail,Please Check your NetWork"/>
+	<string name = "isloadingAdvertisement" text = "Loading Advertisement..."/>
+	<string name = "claim" text = "CLAIM"/>
+	<string name = "reward" text = "REWARD"/>
+	<string name = "ADTipsTitle" text = "AD BREAK"/>
+	<string name = "ADTipsContent" text = "ReAward AD"/>
+	<string name = "ADThanksTitle" text = "AD ReAward"/>
+	<string name = "ADThanksContent" text = "Thanks"/>
+	<string name = "ADThanksReward" text = "ReAward Issued"/>
+
+	<string name = "txtContinue" text = "CONTINUE"/>
+	<string name = "txtShop" text = "SHOP"/>
+    <string name = "txtMusic" text = "MUSIC"/>
+    <string name = "txtSound" text = "SOUND"/>
+    <string name = "txtHome" text = "HOME"/>
+	<string name = "txtGems_FR" text = "{0} GEMS"/>
+	<string name = "txtGetFree" text = "GET FREE"/>
+	<string name = "txtUseTool" text = "USE TOOL"/>
+	<string name = "txtBest" text = "BEST"/>
+	<string name = "txtScore" text = "SCORE"/>
+    <string name = "txtSucess" text = "SUCCESS!"/>
+    <string name = "txtRewardSucess" text = "Reward Received Successfully!"/>
+    <string name = "txtOK" text = "OK"/>
+    <string name = "txtYES" text = "YES"/>
+    <string name = "txtSetting" text = "SETTING"/>
+    <string name = "txtRate" text = "RATE"/>
+    <string name = "txtThanks" text = "No,thanks"/>
+    <string name = "txtRweardADTitle" text = "REWARD AD"/>
+    <string name = "txtRewardADTips" text = "AD Reward Received"/>
+     <string name = "txtReawrdGems" text = "+30 GEMS"/>
+     <string name = "txtGameOver" text = "Game OVER"/>
+    <string name = "txtCombo" text = "{0} COMBO"/>
+
+	<!-- Daily Rewards -->
+	<string name = "txtDailyRewards" text = "DAILY REWARDS"/>
+	<string name = "txtDay_FR" text = "DAY {0}"/>
+
+
+	<string name = "useHammerTool" text = "You have {0} chance to use Hammer!"/>
+	<string name = "useSwordTool" text = "You have {0} chance to use Sword!"/>
+	<string name = "useHandTool" text = "You have {0} chance to use Hand!"/>
+	
+	    <!-- Select Theme Screen -->
+    <string name = "txtSelectTheme" text = "SELECT THEME"/>
+	<string name = "txtActive" text = "ACTIVE"/>
+	<string name = "txtUnlock" text = "UNLOCK"/>
+	<string name = "txtSelect" text = "SELECT"/>
+	<string name = "Theme-1" text = "Theme-1"/>
+	<string name = "Theme-2" text = "Theme-2"/>
+	
+</Resources>

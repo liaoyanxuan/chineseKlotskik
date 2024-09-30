@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f169a6b2892544fa0ac8b304a1daf5cd, type: 3}
+  m_Name: GoogleMobileAdsSettings
+  m_EditorClassIdentifier: 
+  appId_android: ca-app-pub-4488157848198084~5945061906
+  bannerId_android: ca-app-pub-4488157848198084/9166121610
+  interstitialId_android: ca-app-pub-4488157848198084/2932596196
+  rewardedId_android: ca-app-pub-4488157848198084/9692735222
+  openId_android: ca-app-pub-4488157848198084/8379653554
+  appId_iOS: ca-app-pub-4488157848198084~4871653381
+  bannerId_iOS: ca-app-pub-4488157848198084/5432241806
+  interstitialId_iOS: ca-app-pub-4488157848198084/9884306916
+  rewardedId_iOS: ca-app-pub-4488157848198084/9549264995
+  openId_iOS: ca-app-pub-4488157848198084/3494675304
+  tagForChildTreatment: 1
+  bannerAdPosition: 5
+  bannerBGColor: FFFFFE

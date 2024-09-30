@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58357e8031e0e4098b1898f0771924a0, type: 3}
+  m_Name: AppSettings
+  m_EditorClassIdentifier: 
+  currentAndroidStore: 0
+  privacyPolicyURL: 
+  enableSupportURL: 0
+  supportURL: 
+  appleID: 
+  showReviewPopupOnLaunch: 0
+  reviewPopupAppLaunchCount: 
+  showReviewPopupOnGameOver: 0
+  reviewPopupGameOverCount: 
+  minRatingToNavigateToStore: 4.5
+  showAppleStoreReviewPopupOniOS: 0
+  neverShowReviewPopupIfRated: 1
+  amazonReviewURL: 
+  samsungReviewURL: 
+  enableVibrations: 0
+  defaultGemsAmount: 100
+  watchVideoRewardAmount: 100
+  rescueGameGemsAmount: 100
+  useDailyRewards: 0
+  dailyRewardsSettings:
+    allDayRewards: 
