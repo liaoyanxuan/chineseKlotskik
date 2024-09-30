@@ -1,0 +1,6 @@
+三国华容道源码说明：
+1.PlayingManager：ResumeGame，恢复游戏；
+2.GameProgressTracker：SaveProgress -- 保存进度；
+
+
+
