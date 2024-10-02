@@ -152,7 +152,7 @@ namespace ByteDance.Union
            // //rootDict.SetString("NSPhotoLibraryAddUsageDescription", "need your agreement to save picture");
            // //rootDict.SetString("NSPhotoLibraryUsageDescription", "need your agreement to save picture");
           rootDict.SetString("NSUserTrackingUsageDescription", "You'll see fewer irrelevant ads.");
-            rootDict.SetString("CFBundleDisplayName", "三國華容道");
+            rootDict.SetString("CFBundleDisplayName", "Klotski Unblock Puzzle");
             rootDict.SetBoolean("UIViewControllerBasedStatusBarAppearance", false);
 
              PlistElementArray CFBundleLocalizationsArr = rootDict.CreateArray("CFBundleLocalizations");

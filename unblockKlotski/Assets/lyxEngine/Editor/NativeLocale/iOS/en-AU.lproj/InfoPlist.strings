@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Unity-iPhone
+
+  Created by 廖衍旋 on 2020/3/24.
+  
+*/
+CFBundleDisplayName="Sliding Block Puzzle";
+NSUserTrackingUsageDescription="You'll see fewer irrelevant ads.";
