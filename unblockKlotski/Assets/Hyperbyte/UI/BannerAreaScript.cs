@@ -8,7 +8,7 @@ public class BannerAreaScript : MonoBehaviour
     void Awake()
     {
 #if UNITY_IOS
-    this.gameObject.SetActive(true);
+    this.gameObject.SetActive(false);
 #else
         this.gameObject.SetActive(false);
 #endif
