@@ -181,7 +181,7 @@ namespace Hyperbyte.Ads
            AdManager.Instance.OnRewardedShown();
         }
 
-        public void HandleRewardedAdFailedToShow(object sender, AdErrorEventArgs args)  {
+        public void HandleRewardedAdFailedToShow(object sender, EventArgs args)  {
         }
 
         public void HandleRewardedAdClosed(object sender, EventArgs args)

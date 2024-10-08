@@ -8,7 +8,7 @@ using sw.util;
 
 using UnityEngine;
 using System.Collections;
-
+using GoogleMobileAds.Api;
 
 public class InitConfig : MonoBehaviour
 {
@@ -69,6 +69,8 @@ public class InitConfig : MonoBehaviour
 
         DebugEx.LogImportant("testload  GDPR弹窗完成:" + Time.time);
 
+        yield return new WaitForSeconds(0.5f);
+
         idfaRequest();  //idfa弹窗
         yield return new WaitUntil(() => isIDFA_Verified); //等待 IDFA完成
 
@@ -104,10 +106,25 @@ public class InitConfig : MonoBehaviour
         }
     }
 
+    private bool needShowIdfa = true;
     private void gdprCallback(string result)
     {
         DebugEx.LogImportant("gdprCallback:" + result);
         isGDPR_Verified = true;  //GDPR完成
+
+        // Example value: "1111111111"
+        string purposeConsents = ApplicationPreferences.GetString("IABTCF_PurposeConsents");
+        // Purposes are zero-indexed. Index 0 contains information about Purpose 1.
+        DebugEx.LogImportant("purposeConsents", purposeConsents);
+        if (!string.IsNullOrEmpty(purposeConsents))
+        {
+            char purposeOneString = purposeConsents[0];
+            bool hasConsentForPurposeOne = purposeOneString == '1';
+
+            // 使用 IndexOf() 检查是否包含 '1'
+            needShowIdfa = purposeConsents.IndexOf('1') >=0;  //gdpr询问中全部为零，不需要弹idfa
+            DebugEx.LogImportant("purposeConsents-needShowIdfa", needShowIdfa);
+        }
 
     }
 
@@ -117,8 +134,8 @@ public class InitConfig : MonoBehaviour
         gameStart = gameStart + 1;
         PlayerPrefs.SetInt("GameStartCount", gameStart);
 
-        //只会弹一次；
-        if (gameStart == 1)
+        //只会弹一次；且idfa弹窗不全为零
+        if (gameStart == 1 && needShowIdfa)
         {
             iOSUtil.requestIDFA(requestIDFAResult); //iOS等待回掉
         }

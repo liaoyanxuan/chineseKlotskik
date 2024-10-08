@@ -2,7 +2,7 @@
 <Resources>	
 	<!-- Common-->
 	<string name = "classic" text = "經典佈局_90"/>
-	<string name = "blindbox" text = "盲盒模式_90"/>
+	<string name = "blindbox" text = "過關斬將_90"/>
 	<string name = "level1" text = "等級1(1-19步)_70"/>
 	<string name = "level2" text = "等級2(20-39步)_70"/>
 	<string name = "level3" text = "等級3(40-59步)_70"/>

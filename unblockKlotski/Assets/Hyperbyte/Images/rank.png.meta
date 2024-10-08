@@ -399,10 +399,10 @@ TextureImporter:
       Rank_goldmedal: -830787060
       login_tips_rank: -1006679979
       Rank_silvermedal: -197985513
-      block_tip: -986768731
+      Rank_bronzemedal: -1044736935
       bg_player_item: -2104294042
       bg_player_myself: 1296880941
-      Rank_bronzemedal: -1044736935
+      block_tip: -986768731
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

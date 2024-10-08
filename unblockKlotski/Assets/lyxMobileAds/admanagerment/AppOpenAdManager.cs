@@ -103,9 +103,9 @@ public class AppOpenAdManager
 		LoadAd();
 	}
 
-	private void HandleAdFailedToPresentFullScreenContent(object sender, AdErrorEventArgs args)
+	private void HandleAdFailedToPresentFullScreenContent(object sender, EventArgs args)
 	{
-		Debug.LogFormat("Failed to present the ad (reason: {0})", args.AdError.GetMessage());
+		Debug.LogFormat("Failed to present the ad ");
 		// Set the ad to null to indicate that AppOpenAdManager no longer has another ad to show.
 		if (ad != null)
 		{

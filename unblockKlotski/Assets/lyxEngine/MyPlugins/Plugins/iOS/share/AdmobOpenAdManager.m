@@ -23,20 +23,7 @@
 }
 
 - (void)requestAppOpenAd {
-  self.appOpenAd = nil;
-  [GADAppOpenAd loadWithAdUnitID:@"ca-app-pub-4488157848198084/3494675304"
-                         request:[GADRequest request]
-                     orientation:UIInterfaceOrientationPortrait
-               completionHandler:^(GADAppOpenAd *_Nullable appOpenAd, NSError *_Nullable error) {
-                 if (error) {
-                   NSLog(@"Failed to load app open ad: %@", error);
-                   return;
-                 }
-                NSLog(@"Suss to load app open ad");
-                 self.appOpenAd = appOpenAd;
-                 self.appOpenAd.fullScreenContentDelegate = self;
-                 self.loadTime = [NSDate date];
-               }];
+
 }
 
 - (void)tryToPresentAd {
