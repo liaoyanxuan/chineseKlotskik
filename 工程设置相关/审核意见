@@ -1,0 +1,155 @@
+根据审核给出的审核意见，请回复审核，对应Guideline 2.3.1 - Performance，项目里有webview，webview仅仅使用在gdpr弹窗和移动广告展示，均由GoogleMobileAds的sdk提供，GoogleMobileAds是一个全球广泛使用的广告sdk，其webview使用方式符合苹果规范。游戏不存在任何违规使用webview的情况。对应Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage，我已经对游戏的GDPR弹窗和App Tracking Transparency 弹窗流程进行修改，确保用户在GDPR弹窗拒绝被追踪后不再弹出App Tracking Transparency 询问。
+
+
+
+
+如果你有收到苹果审核的回复，请分享具体内容，我可以帮助你解析回复并提供进一步的建议。苹果审核通常涉及 App Store 提交时的合规性、功能、界面等方面的问题，具体的回复内容会帮助我为你提供更有针对性的解决方案。
+
+
+
+
+
+您说：
+Hello,
+
+
+Thank you for your resubmission. Upon further review, we identified additional issues that need your attention. See below for more information.
+
+
+If you have any questions, we are here to help. Reply to this message in App Store Connect and let us know.
+
+
+Review Environment
+
+
+Submission ID: cf1c2164-48ae-4d95-9c6c-1f1ac6e71a21
+
+Review date: October 04, 2024
+
+Version reviewed: 1.0.53
+
+
+Guideline 2.3.1 - Performance
+
+The app may contain hidden features, functionality, or content.
+
+
+Specifically, the app may contain functionality to load a web view of external content within the app for the purpose of third-party game streaming. Apps that include hidden, dormant, or undocumented features do not comply with guideline 2.3.1.
+
+
+Users should never be misled about the apps they download. Attempting to hide features, functionality, or content in the app may lead to removal from the Apple Developer Program.
+
+
+Next Steps
+
+
+It would be appropriate to identify any hidden features, functionality, or content in the app, including in third-party code or SDKs, and revise or remove the hidden material before resubmitting for review.
+
+
+If you feel that we have misunderstood how the app functions, reply to this message in App Store Connect to explain how these features work.
+
+
+Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
+
+The app includes a GDPR prompt and an App Tracking Transparency permission request, but they are implemented in a way that might confuse the user.
+
+
+Specifically, the app shows the App Tracking Transparency permission request after the user has already requested you not to track on the GDPR prompt.
+
+
+In addition to App Tracking Transparency, it is important to include all disclosures required by local laws and regulations wherever the app is distributed. These disclosures should be implemented in a way that is clear and respects the user's choices, regardless of the order in which they are presented to the user.
+
+
+Note that if the app behaves differently in different countries or regions, you should provide a way for App Review to review these variations in the app submission. Additionally, these differences should be documented in the Review Notes section of App Store Connect.
+
+
+Next Steps
+
+
+If the user denies permission to track once, do not ask them to allow tracking again within the same permission request flow. There should be no tracking activity until the user grants permission to track.
+
+
+If the app shows the GDPR prompt before showing the App Tracking Transparency permission request, there is no need to modify the wording of the GDPR prompt.
+
+
+Resources
+
+
+- Tracking is linking data collected from the app with third-party data for advertising purposes, or sharing the collected data with a data broker. Learn more about tracking.
+
+- See Frequently Asked Questions about the requirements for apps that track users.
+
+
+Support
+
+
+- Reply to this message in your preferred language if you need assistance. If you need additional support, use the Contact Us module.
+
+- Consult with fellow developers and Apple engineers on the Apple Developer Forums.
+
+- Help improve the review process or identify a need for clarity in our policies by suggesting guideline changes.
+ChatGPT 说：
+ChatGPT
+收到苹果审核的回复后，涉及到两个主要问题：隐藏功能和用户隐私处理（GDPR 与 App Tracking Transparency）。以下是具体问题的解读和应对步骤。
+
+1. 隐藏功能和第三方游戏流媒体问题（Guideline 2.3.1）
+苹果审核提到的问题：
+你的应用可能包含隐藏的功能，尤其是通过 WebView 加载外部内容，可能涉及第三方游戏流媒体功能。
+苹果不允许应用隐藏功能、未记录的特性或内容，这违反了审核指南 2.3.1。
+解决方案：
+检查 WebView 实现：你需要检查应用中是否有加载第三方游戏流媒体或其他类似外部内容的功能，确保这些功能已被明确申明或移除。
+第三方 SDK：如果你使用了第三方库或 SDK，确保这些代码中没有被认为是“隐藏”或“未记录”的功能。如果有，联系 SDK 提供方进行确认。
+声明功能：如果 WebView 或其他功能确实是应用的必要部分，但被误解为隐藏功能，可以在 App Store Connect 提交审核时的 Review Notes 中清晰描述该功能的具体用途和行为。
+回复苹果：如果你认为他们误解了应用的功能，可以通过 App Store Connect 回复，详细说明这些功能的作用，为什么它们不是“隐藏”功能。
+2. GDPR 和 App Tracking Transparency 实现问题（Guideline 5.1.1）
+苹果审核提到的问题：
+应用中有 GDPR 的隐私提示和 App Tracking Transparency 请求权限，但这两者的实现方式可能让用户感到困惑。
+具体问题是：用户在 GDPR 提示中拒绝追踪后，仍然收到 App Tracking Transparency 的请求，这是不符合用户隐私保护的流程。
+解决方案：
+追踪权限逻辑：
+GDPR 拒绝后的处理：当用户在 GDPR 提示中选择不允许追踪时，应用不应再向用户请求 App Tracking Transparency 权限。应用应该尊重用户的选择，在这一流程中不再显示追踪相关的请求。
+修改流程：如果你当前的逻辑是先展示 GDPR 提示，再展示 App Tracking Transparency 提示，你需要调整顺序或直接跳过 App Tracking Transparency 的提示（如果用户已经在 GDPR 提示中选择了“拒绝”）。
+不同地区的行为：如果你的应用在不同地区有不同的隐私提示和权限请求逻辑，请确保在 App Store Connect 的 Review Notes 中清楚地描述这些差异，并为苹果提供不同地区的测试方法（例如 VPN 或模拟器设置）。
+回复苹果：在 App Store Connect 中回复，解释你将如何调整权限请求的逻辑，确保用户在拒绝 GDPR 追踪后不再收到 App Tracking Transparency 的提示。
+3. 后续步骤总结
+WebView 功能处理：
+
+检查和清理可能存在的隐藏或未声明的功能。
+如果确实有 WebView 或其他外部加载功能，明确声明并向苹果解释用途。
+隐私权限逻辑调整：
+
+修改应用中的 GDPR 与 App Tracking Transparency 请求流程，确保不会让用户感到困惑。
+确保如果用户拒绝 GDPR 追踪，就不会再收到 App Tracking Transparency 的提示。
+提交时的审核说明：
+
+在 App Store Connect 的 Review Notes 中，清楚地解释你的应用如何处理不同地区的隐私和权限请求，确保苹果审核人员能理解你的逻辑。
+回复审核：
+
+使用 App Store Connect 回复审核，向苹果解释你的调整或澄清可能的误解。
+如果需要进一步调整代码或逻辑，也可以与开发团队讨论如何更好地实现苹果的隐私要求。
+
+
+==================================================================================================
+==================================================================================================
+
+以下是回复苹果审核的中文版本，你可以在 App Store Connect 中进行回复：
+
+主题: 关于 Guideline 2.3.1 和 5.1.1 的回复
+
+尊敬的审核团队您好，
+
+感谢你们的详细反馈。
+
+Guideline 2.3.1 - 性能
+关于 WebView 的问题，我想澄清一下，项目中的 WebView 仅用于 GDPR 弹窗和移动广告展示，且均由 Google-Mobile-Ads-SDK 提供。Google-Mobile-Ads-SDK 是全球广泛使用且被信赖的广告平台，其 WebView 的使用完全符合苹果的规范。除此之外，应用程序本身并没有任何其他地方使用 WebView，也不存在未声明或隐藏的功能。
+
+我们非常重视应用的合规性，并确保所有第三方 SDK 都遵循苹果的审核要求。如果还有任何疑问，请随时告知，我会继续配合进行进一步的澄清。
+
+Guideline 5.1.1 - 法律 - 隐私 - 数据收集与存储
+我已经对游戏的 GDPR 弹窗和 App Tracking Transparency 弹窗流程进行了修改，确保当用户在 GDPR 弹窗中选择拒绝追踪后，App Tracking Transparency 的弹窗将不会再显示。此修改保证了用户的选择能够得到尊重，避免产生任何混淆。
+
+我们的应用根据用户的手机地区，只有在欧洲经济区（European Economic Area, EEA）和英国（UK）地区展示 GDPR 弹窗。在其他地区，用户将不会看到此弹窗。这个机制是为了确保我们遵守欧洲和英国的隐私法规，同时避免在不必要的情况下打扰其他地区的用户。
+
+如有进一步需要澄清的内容，请随时联系我。我致力于确保应用完全符合苹果的审核规范。
+
+我已重新提交了审核申请，恳请您重新审核。如仍有任何疑问或产生怀疑的地方，请给予我更加具体明确的指示或截图，我将根据要求进行相应修改，以维护苹果商店的健康生态。
