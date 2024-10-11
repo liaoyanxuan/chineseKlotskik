@@ -151,7 +151,7 @@ namespace ByteDance.Union
             // for share sdk 截屏
            // //rootDict.SetString("NSPhotoLibraryAddUsageDescription", "need your agreement to save picture");
            // //rootDict.SetString("NSPhotoLibraryUsageDescription", "need your agreement to save picture");
-          rootDict.SetString("NSUserTrackingUsageDescription", "You'll see fewer irrelevant ads.");
+          rootDict.SetString("NSUserTrackingUsageDescription", "We use your data to deliver personalized ads to improve your experience. For example, we will suggest ads based on your app usage patterns.");
             rootDict.SetString("CFBundleDisplayName", "Klotski Unblock Puzzle");
             rootDict.SetBoolean("UIViewControllerBasedStatusBarAppearance", false);
 

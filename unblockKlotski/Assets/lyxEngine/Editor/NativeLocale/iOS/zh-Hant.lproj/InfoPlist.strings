@@ -6,4 +6,4 @@
   
 */
 CFBundleDisplayName="三國華容道";
-NSUserTrackingUsageDescription="你會看到更少的無關廣告";
+NSUserTrackingUsageDescription="我們使用您的數據來提供個性化廣告，以提升您的體驗。例如，我們會根據您的應用程式使用模式推薦廣告。";

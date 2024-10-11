@@ -6,4 +6,4 @@
   
 */
 CFBundleDisplayName="Klotski Unblock Puzzle";
-NSUserTrackingUsageDescription="You'll see fewer irrelevant ads.";
+NSUserTrackingUsageDescription="We use your data to deliver personalized ads to improve your experience. For example, we will suggest ads based on your app usage patterns.";
